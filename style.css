@@ -44,14 +44,14 @@ a {
 /* HEADER */
 
 .header{
-    background: #0e1038;
-    background-image: url("./img/bg/bg-6.png");
+    background: #5552B2;
+    background-image: url("./img/bg/1bbbg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
     min-height: 400px;
-    color: #FFF;
+    color: #5552B2;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -94,6 +94,7 @@ a {
     margin-bottom: 20px;
 }
 .title{
+    color: #5552B2;
     font-size: 46px;
     margin-bottom: 60px;
     font-family: 'Playfair Display', serif;
@@ -121,12 +122,12 @@ a {
 }
 .portfolio_item_title a {
     text-decoration: none;
-    color:  #DA3932;
+    color:  #5552B2;
     border-bottom: 1px solid #FFF;
 }
 /* поведение сслыки при наведении на нее мышки */
 .portfolio_item_title a:hover {
-    color: #2D3142;
+    color: #E1CFD4;
     border-color: rgba(228, 44, 44, 0.3);
 }
 .portfolio_item_text p {
@@ -153,14 +154,14 @@ a {
 .button_back{
     font-weight: 700;
     text-decoration: none;
-    color: #DA3932;
+    color: #E1CFD4;
     text-transform: uppercase;
     letter-spacing: 1.6px;
 
     display: inline-block;
 
     border-width: 2px;
-    border-color: #DA3932;
+    border-color: #E1CFD4;
     border-style: solid;
     border-radius: 50px;
 
@@ -173,8 +174,8 @@ a {
 
 }
 .button-back:hover{
-    color: #0e1038;
-    background-color: #DA3932;
+    color: #5552B2;
+    background-color: #E1CFD4;
 }
 
 
@@ -184,8 +185,8 @@ a {
 
 /* FOOTER */
 .footer{
-    background-color: #0e1038;
-    color: #FFF;
+    background-color: #5552B2;
+    color: #E1CFD4;
     padding-top: 90px;
     padding-bottom: 190px;
 }
@@ -200,10 +201,11 @@ p.footer_name{
     font-family: 'Playfair Display', serif;
 }
 p.footer_social{
-    color: #DA3932;
+    color: #E1CFD4;
 }
 p.footer_social_icons{
-    color: #DA3932;;
+    color: #E1CFD4;
+    margin-left: 46px;
     font-size: 32px;
 }
 p.footer_social_icons a {
@@ -215,19 +217,19 @@ p.footer_social_icons a:last-child{
     margin-right: 0px;
 }
 p.footer_social_icons a:hover{
-    color: #DA3932;
+    color: #E1CFD4;
 }
 .button{
     font-weight: 700;
     text-decoration: none;
-    color: #DA3932;
+    color: #E1CFD4;
     text-transform: uppercase;
     letter-spacing: 1.6px;
 
     display: inline-block;
 
     border-width: 2px;
-    border-color: #DA3932;
+    border-color: #E1CFD4;
     border-style: solid;
     border-radius: 50px;
 
@@ -240,8 +242,8 @@ p.footer_social_icons a:hover{
 
 }
 .button:hover{
-    color: #0e1038;
-    background-color: #DA3932;
+    color: #132D44;
+    background-color: #E1CFD4;
 }
 
 
